@@ -1,6 +1,9 @@
 *.iml
 .gradle
 /local.properties
+/app/src/androidTest
+/app/src/test
+/.idea
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml

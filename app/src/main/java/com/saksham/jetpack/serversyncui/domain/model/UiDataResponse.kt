@@ -12,6 +12,8 @@ data class UiDataObject(
     var type: UiType = UiType.SPACE,
     var value: String = "",
     @get:PropertyName("color_code") @set:PropertyName("color_code")
-    var colorCode: String = "#000000"
+    var colorCode: String = "#000000",
+    @get:PropertyName("text_size") @set:PropertyName("text_size")
+    var textSize: Int = 14
 )
 

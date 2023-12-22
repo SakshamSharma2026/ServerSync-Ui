@@ -18,11 +18,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import com.saksham.jetpack.serversyncui.R
-import com.saksham.jetpack.serversyncui.domain.model.UiType
 import com.saksham.jetpack.serversyncui.domain.model.UiDataObject
+import com.saksham.jetpack.serversyncui.domain.model.UiType
 import com.saksham.jetpack.serversyncui.ui.theme.ServerSyncUITheme
 import com.saksham.jetpack.serversyncui.utils.AnimatedShimmer
 import com.saksham.jetpack.serversyncui.utils.NetworkResult
@@ -62,7 +61,6 @@ private fun GetServerSyncUiData(
             }
         }
     }
-
 }
 
 @Composable
@@ -121,5 +119,6 @@ private fun CheckUIType(
         UiType.ROW -> ShowRowView(value, context)
         UiType.COLUMN -> ShowColumnView(value, context)
         UiType.SPACE -> Spacer(modifier = Modifier.height(20.dp))
+        UiType.SEARCH_BAR -> ShowSearchBar(value, context)
     }
 }

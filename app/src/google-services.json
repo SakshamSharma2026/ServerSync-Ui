@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573836376463",
+    "project_id": "serversync-ui",
+    "storage_bucket": "serversync-ui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573836376463:android:bec3ef82b29963de09b3fa",
+        "android_client_info": {
+          "package_name": "com.saksham.jetpack.serversyncui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2qTjpZAzMHva_fzrFm1Dq61gMeIUBmBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

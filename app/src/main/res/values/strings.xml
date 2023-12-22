@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ServerSync UI</string>
+    <string name="internal_server_error">Internal Server Error. Please try again after some time</string>
+</resources>
